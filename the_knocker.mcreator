@@ -1,0 +1,1033 @@
+{
+  "mod_elements": [
+    {
+      "name": "Knocksleep",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knocksleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnocksleepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cansleep",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cansleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/CansleepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knocker",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/entity/KnockerEntity.java",
+          "src/main/resources/assets/the_knocker/models/item/knocker_spawn_egg.json",
+          "src/main/java/net/mcreator/theknocker/client/renderer/KnockerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KnockerOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knocker_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sleeptrue",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sleeptrue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/SleeptrueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockerPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knocker_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockerEntityIsHurt",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knocker_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Randomspawn",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomspawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/RandomspawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockerconfig",
+      "type": "config",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerconfig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/configuration/KnockerconfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawnknocker",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnknocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/SpawnknockerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Timercommand",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timercommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/TimercommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockercommand",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockercommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/command/KnockercommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Editspawnreset",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "editspawnreset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/EditspawnresetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockerstalk",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerstalk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/entity/KnockerstalkEntity.java",
+          "src/main/java/net/mcreator/theknocker/client/renderer/KnockerstalkRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KnockerstalkOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerstalk_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerstalkOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spawnknockerstalk",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalk_window",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/SpawnknockerstalkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Randomevent",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomevent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/RandomeventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stalkbed",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalkbed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/StalkbedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockerstalklooked",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerstalklooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/entity/KnockerstalklookedEntity.java",
+          "src/main/java/net/mcreator/theknocker/client/renderer/KnockerstalklookedRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Despawnwhenkill",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawnwhenkill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/DespawnwhenkillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnockerstalklookedOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerstalklooked_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerstalklookedOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jumpscare",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/JumpscareProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enterhouseevent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enterhouseevent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/EnterhouseeventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playertick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playertick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/PlayertickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockevent",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockevent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockeventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deadcow",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadcow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_knocker/models/item/deadcow.json",
+          "src/main/resources/assets/the_knocker/blockstates/deadcow.json",
+          "src/main/resources/assets/the_knocker/models/block/deadcow.json",
+          "src/main/java/net/mcreator/theknocker/block/DeadcowBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Deadcowevent",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadcowevent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/DeadcoweventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockerdeadanimal",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerdeadanimal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/entity/KnockerdeadanimalEntity.java",
+          "src/main/java/net/mcreator/theknocker/client/renderer/KnockerdeadanimalRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KnockerdeadanimalOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockerdeadanimal_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theknocker/procedures/KnockerdeadanimalOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "sleep",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "new_day",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "min_spawn_rate",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "max_spawn_rate",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spawn_rate_timer",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "spawn_rate_reset",
+      "type": "number",
+      "scope": "map",
+      "value": "5000.0"
+    },
+    {
+      "name": "stalker_count",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "sleep_multiplier",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "knocker_trigger_knock",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    },
+    {
+      "name": "xdoor_knocker",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "ydoor_knocker",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zdoor_knocker",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "jumpscare_multiplier",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "riser_cooldown",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "door_knocking_1",
+      "files": [
+        "door-knocking-175163_1_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "door_knocking_2",
+      "files": [
+        "door-knocking-angry-88120_1_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "door_knocking_4",
+      "files": [
+        "knocking-on-wooden-door-interior-perspective-102951_1_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "door_knocking_3",
+      "files": [
+        "knocking-on-wooden-door-102930_1_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn_1",
+      "files": [
+        "spawn_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn_2",
+      "files": [
+        "spawn_2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "window_knock_1",
+      "files": [
+        "window_knock_1"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "window_knock_2",
+      "files": [
+        "window_knock_2"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "breath",
+      "files": [
+        "breath_1"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "jumpscare",
+      "files": [
+        "jumpscare"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "knife_sharpening_1",
+      "files": [
+        "sharpening-knife-fast-gamemaster-audio-2-2-00-01"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "sharpening_knife_2",
+      "files": [
+        "sharpening-knife-gamemaster-audio-1-00-00"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "riser",
+      "files": [
+        "riser-3-130954"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.window_knock_2": "",
+      "subtitles.window_knock_1": "",
+      "subtitles.jumpscare": "",
+      "subtitles.door_knocking_3": "",
+      "subtitles.door_knocking_4": "",
+      "config.the_knocker.knockerconfig": "knocker",
+      "subtitles.spawn_1": "",
+      "subtitles.spawn_2": "",
+      "subtitles.knife_sharpening_1": "",
+      "subtitles.sharpening_knife_2": "",
+      "item.the_knocker.knocker_spawn_egg": "Knocker Spawn Egg",
+      "subtitles.riser": "",
+      "entity.the_knocker.knockerdeadanimal": "Knocker",
+      "subtitles.breath": "",
+      "block.the_knocker.deadcow": "Deadcow",
+      "subtitles.door_knocking_1": "",
+      "entity.the_knocker.knocker": "Knocker",
+      "entity.the_knocker.knockerstalklooked": "Knocker",
+      "subtitles.door_knocking_2": "",
+      "entity.the_knocker.knockerstalk": "Knocker"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_knocker",
+    "modName": "The Knocker",
+    "version": "1.2.0",
+    "author": "Ma_Do",
+    "websiteURL": "https://discord.gg/uH6ybdaG",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "the_knocker",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Ma_Do",
+    "modElementsPackage": "net.mcreator.theknocker",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "the_knocker:custom/dead_cow",
+  "textures": {
+    "all": "the_knocker:blocks/blood_floor",
+    "particle": "the_knocker:blocks/blood_floor",
+    "0": "the_knocker:blocks/cow",
+    "1": "the_knocker:blocks/speer",
+    "2": "the_knocker:blocks/blood_floor",
+    "3": "the_knocker:blocks/knife"
+  },
+  "render_type": "cutout_mipped"
+}

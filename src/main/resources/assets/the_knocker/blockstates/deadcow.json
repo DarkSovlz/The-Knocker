@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_knocker:block/deadcow"
+    },
+    "facing=east": {
+      "model": "the_knocker:block/deadcow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_knocker:block/deadcow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_knocker:block/deadcow",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "door_knocking_1": {
+    "sounds": [
+      {
+        "name": "the_knocker:door-knocking-175163_1_1",
+        "stream": false
+      }
+    ]
+  },
+  "door_knocking_2": {
+    "sounds": [
+      {
+        "name": "the_knocker:door-knocking-angry-88120_1_1",
+        "stream": false
+      }
+    ]
+  },
+  "door_knocking_4": {
+    "sounds": [
+      {
+        "name": "the_knocker:knocking-on-wooden-door-interior-perspective-102951_1_1",
+        "stream": false
+      }
+    ]
+  },
+  "door_knocking_3": {
+    "sounds": [
+      {
+        "name": "the_knocker:knocking-on-wooden-door-102930_1_1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_1": {
+    "sounds": [
+      {
+        "name": "the_knocker:spawn_1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn_2": {
+    "sounds": [
+      {
+        "name": "the_knocker:spawn_2",
+        "stream": false
+      }
+    ]
+  },
+  "window_knock_1": {
+    "sounds": [
+      {
+        "name": "the_knocker:window_knock_1",
+        "stream": false
+      }
+    ]
+  },
+  "window_knock_2": {
+    "sounds": [
+      {
+        "name": "the_knocker:window_knock_2",
+        "stream": false
+      }
+    ]
+  },
+  "breath": {
+    "sounds": [
+      {
+        "name": "the_knocker:breath_1",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare": {
+    "sounds": [
+      {
+        "name": "the_knocker:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "knife_sharpening_1": {
+    "sounds": [
+      {
+        "name": "the_knocker:sharpening-knife-fast-gamemaster-audio-2-2-00-01",
+        "stream": false
+      }
+    ]
+  },
+  "sharpening_knife_2": {
+    "sounds": [
+      {
+        "name": "the_knocker:sharpening-knife-gamemaster-audio-1-00-00",
+        "stream": false
+      }
+    ]
+  },
+  "riser": {
+    "sounds": [
+      {
+        "name": "the_knocker:riser-3-130954",
+        "stream": false
+      }
+    ]
+  }
+}

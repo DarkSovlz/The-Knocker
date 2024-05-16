@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cow",
+        "1": "speer",
+        "2": "blood_floor",
+        "3": "knife"
+      },
+      "name": "default"
+    }
+  }
+}

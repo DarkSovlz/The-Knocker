@@ -1,0 +1,22 @@
+{
+  "subtitles.window_knock_2": "",
+  "subtitles.window_knock_1": "",
+  "subtitles.jumpscare": "",
+  "subtitles.door_knocking_3": "",
+  "subtitles.door_knocking_4": "",
+  "config.the_knocker.knockerconfig": "knocker",
+  "subtitles.spawn_1": "",
+  "subtitles.spawn_2": "",
+  "subtitles.knife_sharpening_1": "",
+  "subtitles.sharpening_knife_2": "",
+  "item.the_knocker.knocker_spawn_egg": "Knocker Spawn Egg",
+  "subtitles.riser": "",
+  "entity.the_knocker.knockerdeadanimal": "Knocker",
+  "subtitles.breath": "",
+  "block.the_knocker.deadcow": "Deadcow",
+  "subtitles.door_knocking_1": "",
+  "entity.the_knocker.knocker": "Knocker",
+  "entity.the_knocker.knockerstalklooked": "Knocker",
+  "subtitles.door_knocking_2": "",
+  "entity.the_knocker.knockerstalk": "Knocker"
+}

@@ -1,0 +1,51 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "server and client",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 2,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "common",
+            "comment": "use if respect_difficulty is false! 'rare, common, often'",
+            "vardisplay": "spawn_rate",
+            "varname": "spawn_rate",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:Knocker"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "if true, it will adjust the rareness of the Knocker to the ingame difficulty",
+            "vardisplay": "respect_difficulty",
+            "varname": "respect_difficulty",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "CUSTOM:Knocker"
+          }
+        ]
+      }
+    ],
+    "file": "knocker",
+    "configType": 0
+  }
+}
